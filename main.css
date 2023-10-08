@@ -1,0 +1,69 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
+
+.buttons {
+    padding: 0;
+    margin-top: 50px;
+    
+}
+ 
+body{
+    padding-top: 100px;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: black;
+    
+}
+
+#button{
+    text-decoration: none;
+    letter-spacing: 1.13px;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: arial;
+    background: linear-gradient(to bottom, #1B1CAE, #6577D0);
+    border: solid #7CAFFF 1px;
+    border-radius: 5px;
+    padding:15px;
+    text-shadow: 0px 1px 2px #000000;
+    box-shadow: 0px 1px 5px #0D2444;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+#button:hover{
+    opacity: 0.9;
+    background: linear-gradient(to bottom, #000000, #6477D9);
+    box-shadow: 0px 1px 2px #000000;
+}
+
+#resultado{
+    font-family: sans-serif;
+    font-size: small;
+    margin-top: -80px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+
+#num1{
+    background-color: transparent; 
+    color: #FFFFFF;
+      
+    &::placeholder {
+    color: #ffffffc0;
+    opacity: 1;
+    }
+      
+}
+
+#num2{
+    background-color: transparent;
+    color: #FFFFFF;
+
+    &::placeholder{
+        color: #ffffffc0;
+        opacity: 1;
+    }
+}
